@@ -1,5 +1,5 @@
 +++
-title = 'The Start'
+title = "About"
 date = 2024-11-23T21:18:35-03:00
 draft = false
 +++
@@ -18,7 +18,7 @@ Those things include:
 - Operatinal Systems
 - Much more (anything that takes my interest, honestly 😃)
 
-I'm not really used to write my thoughts out like that, even more so in English, that's not my first language.
+I'm not really used to write my thoughts out like that, even more so in English, which is not my first language.
 If you find something weird, mispelled, or anything like that, please, say it in the comments section!
 
 This blog is made with [Hugo](https://gohugo.io). Check out their project!
