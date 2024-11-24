@@ -1,0 +1,65 @@
+# SEO keywords and description for your site.
+keywords = "Haru02w, Software Engineer, C++, C, Programming Language"
+subtitle = ""
+
+# dir name of your blog content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "post"
+
+jsonLD = true
+
+showAuthor = true
+
+toc = false
+
+[author]
+  name = "João Victor Millane"
+  email = "haru02w@protonmail.com"
+
+[header]
+  logo = "logo.svg"
+
+[footer]
+  since = 2024
+  poweredby = true
+
+# giscus is comments system powered by GitHub Discussions
+# generate configurations from https://giscus.app/
+[giscus]
+  enabled = true
+  repo = "haru02w/haru02w.github.io"
+  repoID = "R_kgDONTuw6Q"
+  category = "Ideas"
+  categoryID = "DIC_kwDONTuw6c4CkjNA"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  theme = "preferred_color_scheme"
+  lang = "en"
+  loading="lazy"
+
+[social_media]
+  [[social_media.items]]
+    enabled = true
+    title = 'LinkedIn'
+    icon = 'brand-linkedin'
+    link = 'https://www.linkedin.com/in/joao-victor-millane/'
+
+  [[social_media.items]]
+    enabled = true
+    title = 'Github'
+    icon = 'brand-github'
+    link = 'https://github.com/haru02w'
+
+[pwa]
+  enabled = true
+  icon = "logo.png" # should be in assets
+  icon_sizes = [192, 512]
+
+  # will be used as the manifest.json file and merge the default one
+  # https://developer.mozilla.org/en-US/docs/Web/Manifest
+  # https://web.dev/add-manifest/
+  [manifest]
+  description = "Haru02w's blog"
