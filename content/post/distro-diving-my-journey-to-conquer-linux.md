@@ -1,7 +1,7 @@
 +++
 title = 'Distro Diving: My Journey to Conquer Linux'
 date = 2024-11-24T18:28:48-03:00
-draft = true
+draft = false
 +++
 
 Here's is how I learnt pretty much how linux distros are made.
