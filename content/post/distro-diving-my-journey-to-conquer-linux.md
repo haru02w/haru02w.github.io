@@ -9,32 +9,37 @@ Here's is how I learnt pretty much how linux distros are made.
 # The Start
 
 When I was 6 years old, I heard my mom say her oven light was not turning on, so I went there to find why.
-I've found a connector that was not plugged, so I plugged it and it worked!
+I've found a connector that was not plugged, so I plugged it and voila, I fixed it.
 
-That is was my first experience solving problems and feeling rewarded after it.
-From that time, I got facinated with tecnology in general.
+That is was my first experience ever solving problems and feeling rewarded after it.
+From that time, I got facinated with tecnology.
 
 When my aunt used to gave her phone (at that time, it was a dumb phone), I would look for settings, features, games, anything that it could offer, just to satisfy my curiosity.
 
 ## My first PC
 
 When I got to 12 years old, my great-father gave me his computer because he was going to buy a new one.
-That computer was REALLY slow for EVERYTHING, but that was a good to trigger my curiosity for optimization techniques.
+That computer was REALLY slow, but that was a good to trigger my curiosity for optimization techniques.
 
 At that time, all I wanted to do was play Minecraft with my friends, so I started to find ways to do it.
-Windows 7 was too heavy for it, so I tried tweaking the setting for performance mode, but that didn't work out.
-So I installed Windows XP just to run Minecraft at minimum settings, using all mods I could find to improve performance to, in the end, run it with about 10-15 fps.
+Windows 7 was too heavy for it, so I tried tweaking the setting for performance, but that didn't work out.
+So I installed Windows XP just to run Minecraft at minimum settings, using all mods I could find to improve performance, to in the end, run it with 10-15 fps.
 
-Since it wasn't playable when running a VPN to play with my friends, I went out looking for more optimizations.
-Buy new hardware was not a option as my family never would let me do it.
+Since that was not playable when running any background program, I went out looking for more optimizations.
+Buy new hardware was not a option as my family never would let me do it. We never buy stuff just for entertainement, only if it is useful to save time or earn money.
 
 So I tried a lot of "programs" that promisses to improve performance but everyone knows that this is just a lie. 💩
-As someone could think, I installed a lot of viruses. One that stood out was a trojan made with [njRAT](https://en.wikipedia.org/wiki/NjRAT)
-How did I went to know about it? Well... That's a very interesting story:
+As someone could think, I installed a lot of viruses. One that stood out was a trojan made with [njRAT](https://en.wikipedia.org/wiki/NjRAT).
 
-I was searching some things on my phone when I've seen the cursor move by itself. I found it funny, so I watched it moving. The hacker was opening the browser, searching my social accounts. When I saw it, I instantly "Alt+F4" the browser and opened the notepad and wrote: "What do you want?"
+How I went to know about it? Well... That's a very interesting story:
+
+I was searching some things on my phone when I've seen the cursor move by itself. I found it funny, so I watched it moving. That thing was opening the browser, searching my social accounts. When I saw it, I instantly "Alt+F4" the browser and opened the notepad and wrote: "What do you want?"
+
 I was able to move the cursor because my network connection was really bad, so the trojan couldn't block the events in time.
+
 From that, the "hacker" and I started talking about hacking stuff, like trojans, keyloggers, hacker clubs, etc. 
+In the end, I just killed the virus process from the task manager and uninstalled it manually.
+
 That inspired me to know how these viruses works but, at the time, I find it too overwhealming to learn, so I gave up.
 
 Then, looking all around the internet I found some folks saying things about Linux and how it was great for old computers, and hacking. So, with no doubt, I jumped in.
@@ -45,11 +50,11 @@ Pretty much like everyone else, my first distro was Ubuntu.
 I downloaded the ISO from the [website](https://ubuntu.com/download/desktop), downloaded [Rufus](https://rufus.ie/en/), got a USB flash drive and a dream of a fast computer.
 By following tutorials on YouTube, I managed to install it.
 
-I also was starting to get interested at programming at the time, so I wanted to run the LAMP stack (Linux, Apache2, MySQL and PHP).
+I was also starting to get interested at programming at the time, so I wanted to run the LAMP stack (Linux, Apache2, MySQL and PHP).
 Luckely I found a meta-package in Ubuntu that installs the whole stack and configure it!
 But things always fails when it's MY time to make it work.😢
 
-The setup went wrong. Everything I tried to make it work, didn't worked out at all. So I thought: "I will just uninstall it and install it again to see what happens".
+The setup went wrong. Everything I tried to do to make it work, would not fix it at all. So I thought: "I will just uninstall it and install it again to see what happens".
 That's when things started to go wrong: the APT package manager somehow had a bug that uninstalled the WHOLE F*CKING SYSTEM.
 
 I gave up on Ubuntu and went looking for a alternative.
@@ -76,9 +81,9 @@ So this time, I jumped into the hype:
 
 # Arch Linux
 
-[Arch Linux](https://archlinux.org/) is a distro that gives you only the necessary tools to build you own highly customized system, that means, nothing more than a base system, a package manager and a shell. You download the rest as you want. The instalation is fully manual too, meaning there is a lot of chance for errors but a lot of flexibility too.
+[Arch Linux](https://archlinux.org/) is a distro that gives you only the necessary tools to build you own highly customized system, that means, nothing more than a base system, a package manager and a shell. You download programs as you want. The instalation is fully manual too, meaning there is a lot of things to go wrong but it gives a lot of flexibility too.
 
-Yes, I [installed](https://wiki.archlinux.org/title/Installation_guide) Arch Linux. More preciselly 12 times. 🤣
+Yeah, I [installed](https://wiki.archlinux.org/title/Installation_guide) Arch Linux more than 12 times. 🤣
 
 My mind could not understand how the hell things works in that system. Everything seemed a ugly hack.
 Later on, I learnt that ALL Software Systems are like that. Some of them hides better than others. 🥲
@@ -93,16 +98,15 @@ Generally saying, if your computer is new enough, use GPT. If not, MBR.
 
 3. There are two types of boot system, [BIOS](https://en.wikipedia.org/wiki/BIOS_boot_partition) and [UEFI](https://en.wikipedia.org/wiki/UEFI).
 
-  1. If you are using BIOS, the firmware load the first 512 bytes to memory and place the program counter to it. That means, whatever is in the first 512 bytes of the disk needs to load all other parts to memory of the bootloader.
+    1. If you are using BIOS, the firmware load the first 512 bytes to memory and place the program counter to it. That means, whatever is in the first 512 bytes of the disk needs to load all other parts to memory of the bootloader.
 
-  2. If you are using UEFI, the firmware search for a partition with the "esp" flag formatted with [FAT-32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32) to load the bootloader.
+    2. If you are using UEFI, the firmware search for a partition with the "esp" flag formatted with [FAT-32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32) to load the bootloader.
 Generally saying, if you computer is new enough, use UEFI. If not, MBR.
 
 4. There are a LOT of bootloaders that are able to boot Linux, that is, set up the CPU and memory to start the Linux Kernel, the program that controls the hardware of the computer. Some of the most popular ones are [GRUB2](https://en.wikipedia.org/wiki/GNU_GRUB), [Systemd-boot](https://en.wikipedia.org/wiki/Systemd-boot) and [Limine](https://limine-bootloader.org/).
 Each kernel expects a environment to boot and, for that, boot protocols were made. The bootloader takes care of implementing those protocols to kernels to be able to boot correctly as well as permiting multiple operational system in the same computer, that is, [Multi-boot](https://en.wikipedia.org/wiki/Multi-booting) (more known as Dual-Boot).
 
 5. The Linux kernel is responsable for implementing safe ways to user programs to access hardware components. Usually that means, creating [Syscalls](https://en.wikipedia.org/wiki/System_call) to permit user programs to communicate with the kernel, requesting disk access, memory, priority, resources, etc.
-
 For simplicity, the kernel starts itself and give the control to a user program. Usually that first program is called the  [Init](https://en.wikipedia.org/wiki/Init) system. There are a lot of init systems, but the most common ones are, respectivelly, [Systemd](https://en.wikipedia.org/wiki/Systemd), [OpenRC](https://en.wikipedia.org/wiki/OpenRC) and [Runit](https://en.wikipedia.org/wiki/Runit).
 The init system is responsable for managing what are the programs that will be running in background, [Daemons](https://en.wikipedia.org/wiki/Daemon_(computing)), as well as the ones that will be run at startup, shutdown, suspension, hibernation, periodically, etc.
 
@@ -122,12 +126,12 @@ After all that information I learnt, I still not satisfied until I reach the poi
 
 # Gentoo
 
-[Gentoo](https://www.gentoo.org/) is a distro were you is given a "base" system and everything else is compiled from source, that means, the "portage" package manager downloads the source of the software made in [Programming Languages](https://en.wikipedia.org/wiki/Programming_language) and use [Compilers](https://en.wikipedia.org/wiki/Compiler) to translate code to an [Executable](https://en.wikipedia.org/wiki/Executable) format, that means, a language the computer can understand.
+[Gentoo](https://www.gentoo.org/) is a distro were you are given a "base" system and everything else is compiled from source, that means, the "portage" package manager downloads the source of the software made in [Programming Languages](https://en.wikipedia.org/wiki/Programming_language) and use [Compilers](https://en.wikipedia.org/wiki/Compiler) to translate code to an [Executable](https://en.wikipedia.org/wiki/Executable) format, that means, a language the computer can understand.
 We can also specify what optimizations the compilers can perform based on what hardware you will be running the program on, optimizing the maximum you could without changing the source code of them.
 
 I used Gentoo a little more than 2 months. The performance was a real thing!
 I've learnt a lot about dynamic libraries, compile flags, CPU extensions, kernel modules, patches, etc.
-I highly recommend everyone that wants to be a software developer/engineer to also try it, as it forces you to learn a lot how system's programs are built.
+I highly recommend everyone that wants to be a software developer/engineer to also try it, as it forces you to learn a how system's programs are built.
 
 Eventually, I find myself spending too much time tweaking compile flags and updating the system than I wanted to. So it's time to go back to something a little more "human".
 
@@ -152,8 +156,11 @@ create custom shells with the programs specified with `nix shell`,
 create developing environments that isolate the programs needed by project instead of installing them on the host system with `nix develop`.
 
 Each new project is a big hassle to get it working but once it works,
-you'll never think about that phrase all developers have already heard, "It works on my computer",
-because if a projects runs in one system,
+you'll never think about that phrase all developers have already heard:
+
+"It works on my computer".
+
+Because if a projects runs in one system,
 it will definitely work on other computers.
 Nix projects are "pure" by default, that means it will have all settings needed to run exactly like the developer's computer.
 
