@@ -109,12 +109,12 @@ The init system is responsable for managing what are the programs that will be r
 6. The init system then drops the user into the [TTY](https://en.wikipedia.org/wiki/Tty_(Unix)), running a [Shell](https://en.wikipedia.org/wiki/Unix_shell) or a graphical interface like [X](https://en.wikipedia.org/wiki/X_Window_System) or [Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)).
 
 Some things you may need to know what they do in the a Linux system:
-> apt, pacman, yum, dnf, portage, xbps... - Package managers: installs programs and services for your linux distro.
-> fdisk, parted, gparted, ... - Disk Manager: formats, partition and manage disks.
-> ext4, fat32, btrfs, zfs, ... - File Systems: systems to manage files efficiently.
-> swap - Special file or partition reserved to Linux use the disk as a backup for the RAM memory.
-> /etc/fstab - file the describes what partitions will be mounted at startup
-> /etc/hostname - file that names your computer in the local network
+- apt, pacman, yum, dnf, portage, xbps... - Package managers: installs programs and services for your linux distro.
+- fdisk, parted, gparted, ... - Disk Manager: formats, partition and manage disks.
+- ext4, fat32, btrfs, zfs, ... - File Systems: systems to manage files efficiently.
+- swap - Special file or partition reserved to Linux use the disk as a backup for the RAM memory.
+- /etc/fstab - file the describes what partitions will be mounted at startup
+- /etc/hostname - file that names your computer in the local network
 
 There is just too much things to get in details, so you should probably get a Arch Linux installer like [ArchFI](https://github.com/MatMoul/archfi), and search what each of the programs do, as well as read the [list of applications](https://wiki.archlinux.org/title/List_of_applications) from the Arch Wiki. You may find some really useful apps there!
 
