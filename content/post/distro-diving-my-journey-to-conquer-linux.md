@@ -18,7 +18,7 @@ When my aunt used to gave her phone (at that time, it was a dumb phone), I would
 
 ## My first PC
 
-When I got to 12 years old, my great-father gave me his computer because he was going to buy a new one.
+When I got to 12 years old, my grandfather gave me his computer because he was going to buy a new one.
 That computer was REALLY slow, but that was a good to trigger my curiosity for optimization techniques.
 
 At that time, all I wanted to do was play Minecraft with my friends, so I started to find ways to do it.
@@ -26,14 +26,14 @@ Windows 7 was too heavy for it, so I tried tweaking the setting for performance,
 So I installed Windows XP just to run Minecraft at minimum settings, using all mods I could find to improve performance, to in the end, run it with 10-15 fps.
 
 Since that was not playable when running any background program, I went out looking for more optimizations.
-Buy new hardware was not a option as my family never would let me do it. We never buy stuff just for entertainement, only if it is useful to save time or earn money.
+Buy new hardware was not a option as my family never would let me do it; We never buy stuff just for entertainement, only if it is useful to save time or earn money.
 
 So I tried a lot of "programs" that promisses to improve performance but everyone knows that this is just a lie. 💩
 As someone could think, I installed a lot of viruses. One that stood out was a trojan made with [njRAT](https://en.wikipedia.org/wiki/NjRAT).
 
 How I went to know about it? Well... That's a very interesting story:
 
-I was searching some things on my phone when I've seen the cursor move by itself. I found it funny, so I watched it moving. That thing was opening the browser, searching my social accounts. When I saw it, I instantly "Alt+F4" the browser and opened the notepad and wrote: "What do you want?"
+I was searching some things on my phone when I've seen the cursor move by itself. I found it funny, so I keep watching it. That thing was opening the browser, searching my social accounts. When I saw it, I instantly "Alt+F4" the browser and opened the notepad and wrote: "What do you want?"
 
 I was able to move the cursor because my network connection was really bad, so the trojan couldn't block the events in time.
 
